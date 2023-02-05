@@ -9,7 +9,10 @@
       <van-tabbar-item icon="search" @click="routerPush('/about')">标签</van-tabbar-item>
       <van-tabbar-item icon="friends-o">标签</van-tabbar-item>
     </van-tabbar>
+    <keep-alive>
     <router-view />
+
+    </keep-alive>
   </div>
 </template>
 <script>
